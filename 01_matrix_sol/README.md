@@ -1,6 +1,3 @@
-# leetcode_solutions
-My solutions for github problems
-
 # Solve attempt 1
 This solution is a depth first approach to solving the problem. Each for loop iteration finds all values that are next to zero and increments one of the copies values. It then subtracts all of those values to zero and re-runs the loop. This solution works great when the distance to the nearest zero is low. When there are high distances to the next zero the solution can take a much longer period of time and fails at 49/50 test cases.
 
